@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* logo header */
+div.ex3 {
+  display: flex;
+
+  width: 100%;
+  background-color: black;
+}
+.container-img-left_link {
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+/* Body */
+body {
+  background-color: #39837e;
+}
+.container-img-left_link {
+  width: 150px;
+  margin: auto;
+}
+h1 {
+  margin: 1%;
+  font-size: 100px;
+  margin: 20px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  margin: 1%;
+  font-size: 28px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  margin: 1%;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+h4 {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 24px;
+  margin: 10px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*colores validacion*/
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+/* Pagina 2- introducir datos de la tarjet */
+.form-register {
+  width: 60%;
+  background: #EA8080;
+  padding: 30px;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px #6EB6B1;
+  margin-top: 7%;
+  margin-bottom: 411px;
+}
+.controls {
+  width: 100%;
+  background: azure;
+  padding: 2%;
+  margin-bottom: 16px;
+  border-radius: 100px;
+  border: 2px solid #df6a6a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.bottonsgreen {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: aliceblue;
+  background-color: #39837e;
+  border: none;
+  border-radius: 60px;
+  width: auto;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+.bottonsgreen:hover {
+  color: azure;
+  background-color: goldenrod;
+}
+
+/* Pagina 3- introducir datos de la tarjeta */
+div.ex5 {
+  width: 60%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: #ea8080;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 20px #6eb6b1;
+  margin-top: 7%;
+  margin-bottom: 479px;
+}
+.bottonsgreen2 {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: aliceblue;
+  background-color: #39837e;
+  border: none;
+  border-radius: 60px;
+  width: auto;
+  align-items: center;
+  margin-bottom: 20%;
+}
+.bottonsgreen2:hover {
+  color: azure;
+  background-color: goldenrod;
+}
+/* Footer */
+div.ex6 {
+  display: flex;
+  background-color: #000000;
+  padding: 15px;
+  justify-content: center;
+  color: azure;
+}
+#bloque3 {
+  display: none;
+}
